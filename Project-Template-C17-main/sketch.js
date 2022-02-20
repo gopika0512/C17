@@ -215,10 +215,10 @@ function redCyclists(){
 // distance = 0;
 //}
 
-//function reset(){
-//  gameState = PLAY;
-//  gameOver.visible = false;
-//  mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
+function reset(){
+  gameState = PLAY;
+  gameOver.visible = false;
+  mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
   
 //  pinkCG.destroyEach();
 //  yellowCG.destroyEach();
